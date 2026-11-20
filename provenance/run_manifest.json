@@ -1,0 +1,345 @@
+{
+ "run_started": "2026-11-20T12:56:20",
+ "run_finished": "2026-11-20T12:58:10",
+ "refresh_api": false,
+ "api_cache_responses": 839,
+ "packages": {
+  "pandas": "2.2.3",
+  "numpy": "2.4.6",
+  "rapidfuzz": "3.14.6",
+  "networkx": "3.7",
+  "lxml": "6.1.3",
+  "sentence-transformers": "5.7.0",
+  "pycountry-convert": "0.7.2",
+  "requests": "2.32.4"
+ },
+ "manual_decisions": {
+  "false_match_titles": [
+   "teleworking in times of covid"
+  ],
+  "title_fix": {
+   "135": "BPMapping and UMM in Business Process Modeling for e-Government Processes",
+   "244": "Laying the Foundations for Public Participation and Value Advocacy: Interaction Design for a Large Scale Urban Simulation",
+   "495": "What should government agencies do with information that is relevant for citizens?",
+   "661": "Data-centric workflows in government: a new avenue of research?"
+  },
+  "manual_same_pairs": [
+   [
+    "Gianluca Carlo Misuraca",
+    "Gianluca C. Misuraca"
+   ],
+   [
+    "M. Ku / Minyoung Ku",
+    "Minyoung Ku"
+   ],
+   [
+    "S.Y.W. Su",
+    "Stanley Y. W. Su"
+   ],
+   [
+    "Sahng-Yoon Kim",
+    "Sahng Yoon Kim"
+   ]
+  ],
+  "phases": [
+   [
+    2000,
+    2005,
+    "NSF PI meetings"
+   ],
+   [
+    2006,
+    2012,
+    "DGS of North America"
+   ],
+   [
+    2013,
+    2024,
+    "Digital Government Society"
+   ]
+  ]
+ },
+ "inputs": [
+  {
+   "path": "inputs/dgrl_topics_k10.csv",
+   "exists": true,
+   "md5": "a92cd1e79e96a907e7530e06c31c27c6",
+   "bytes": 2254265,
+   "rows": 812
+  },
+  {
+   "path": "inputs/dgrl_topics_k15.csv",
+   "exists": true,
+   "md5": "7f2f9f0eba78222fe5512a5977201398",
+   "bytes": 2256504,
+   "rows": 812
+  },
+  {
+   "path": "inputs/dgrl_embeddings.npy",
+   "exists": true,
+   "md5": "58aba34e5e2b404b8f226134ff24387a",
+   "bytes": 1247360
+  },
+  {
+   "path": "inputs/openalex_matches_cache.json",
+   "exists": true,
+   "md5": "019c50ae52c2e5e57b809a4a3005c826",
+   "bytes": 976957
+  },
+  {
+   "path": "inputs/openalex_authorships.csv",
+   "exists": true,
+   "md5": "ef8cf59b145f942079321168a94be288",
+   "bytes": 259506,
+   "rows": 2025
+  },
+  {
+   "path": "inputs/manual_lookups_log.csv",
+   "exists": true,
+   "md5": "c683703ca525f791b50d8bc6f7666d4a",
+   "bytes": 33829,
+   "rows": 24
+  },
+  {
+   "path": "inputs/affiliation_lookups_log.csv",
+   "exists": true,
+   "md5": "a07244f54614f701808ca96a96e7ad7f",
+   "bytes": 10126,
+   "rows": 36
+  },
+  {
+   "path": "inputs/web_affiliation_lookups_2026-11-19.csv",
+   "exists": true,
+   "md5": "1987aeeaf45f8ddd0bfa1e4348f5e517",
+   "bytes": 94610,
+   "rows": 310
+  }
+ ],
+ "outputs": [
+  {
+   "path": "affiliations.csv",
+   "exists": true,
+   "md5": "677b80639cf2f47ef423459f0eb4bdf9",
+   "bytes": 178267,
+   "rows": 812
+  },
+  {
+   "path": "abstracts_backfill.csv",
+   "exists": true,
+   "md5": "f357f984ac9c626c445ac1e3058458d5",
+   "bytes": 29412,
+   "rows": 43
+  },
+  {
+   "path": "still_missing_abstracts.csv",
+   "exists": true,
+   "md5": "cb89b9fc4b9d2aece315adbf40485872",
+   "bytes": 2649,
+   "rows": 22
+  },
+  {
+   "path": "still_missing_for_manual_entry.csv",
+   "exists": true,
+   "md5": "8eb7bc24c89d502eaa6c089b67aa4a72",
+   "bytes": 48720,
+   "rows": 131
+  },
+  {
+   "path": "dgrl_master.csv",
+   "exists": true,
+   "md5": "863d15b4bce339bc70df91d6727c06c5",
+   "bytes": 4557321,
+   "rows": 812
+  },
+  {
+   "path": "key_numbers_by_phase.csv",
+   "exists": true,
+   "md5": "4c17f191a0e24c3a6b3a326912f28fc6",
+   "bytes": 368,
+   "rows": 3
+  },
+  {
+   "path": "authorships_stage1.csv",
+   "exists": true,
+   "md5": "3ee495cf06d001c691cda783653735ab",
+   "bytes": 237835,
+   "rows": 2078
+  },
+  {
+   "path": "authorships_raw.csv",
+   "exists": true,
+   "md5": "e96dacf98463bda95f11928cbabcb584",
+   "bytes": 314376,
+   "rows": 2465
+  },
+  {
+   "path": "authorships.csv",
+   "exists": true,
+   "md5": "a81beba29a9c35a951a46d9ecd646704",
+   "bytes": 344511,
+   "rows": 2464
+  },
+  {
+   "path": "dblp_author_matches.csv",
+   "exists": true,
+   "md5": "4e2dc677e206d7d4df6a2a889b0593c8",
+   "bytes": 20645,
+   "rows": 95
+  },
+  {
+   "path": "author_location_recovery_log.csv",
+   "exists": true,
+   "md5": "2d4b950613a48ad70ba318b196ca159d",
+   "bytes": 4810,
+   "rows": 191
+  },
+  {
+   "path": "affiliation_lookups_combined.csv",
+   "exists": true,
+   "md5": "41c4e7746197ad99596e7075733edf4c",
+   "bytes": 173864,
+   "rows": 577
+  },
+  {
+   "path": "network_missing_papers.csv",
+   "exists": true,
+   "md5": "bf6494fd469c30a3ee1cf4fcc4fb00dd",
+   "bytes": 30,
+   "rows": 0
+  },
+  {
+   "path": "dblp/dblp_dgo_records.json",
+   "exists": true,
+   "md5": "ae8bbf556b8a386347ba67d0ababeafc",
+   "bytes": 880783
+  },
+  {
+   "path": "api_cache.json",
+   "exists": true,
+   "md5": "9d5c5c87eaf79e3bd1bcde5fe9f668f7",
+   "bytes": 3854285
+  },
+  {
+   "path": "gephi/coauthorship_network.gexf",
+   "exists": true,
+   "md5": "872f47c9fcacdf73a142a9681f93b92c",
+   "bytes": 1480570
+  },
+  {
+   "path": "gephi/coauthorship_nodes.csv",
+   "exists": true,
+   "md5": "eb970cd5b9d0ee6155812812e1c83c31",
+   "bytes": 181699,
+   "rows": 1491
+  },
+  {
+   "path": "gephi/coauthorship_edges.csv",
+   "exists": true,
+   "md5": "a087f0f8b7cb8ee89541b7b483c48fff",
+   "bytes": 155075,
+   "rows": 3247
+  },
+  {
+   "path": "gephi/duplicate_author_decisions.csv",
+   "exists": true,
+   "md5": "d9ea741687cd624f04a4f91bee8a2b18",
+   "bytes": 7740,
+   "rows": 72
+  },
+  {
+   "path": "gephi/country_network.gexf",
+   "exists": true,
+   "md5": "3c45a678c9cdb1d398f036f1cc066929",
+   "bytes": 54205
+  },
+  {
+   "path": "gephi/country_nodes.csv",
+   "exists": true,
+   "md5": "a2d8db5e2a4ebd659836836deb1a179d",
+   "bytes": 1429,
+   "rows": 59
+  },
+  {
+   "path": "gephi/country_edges.csv",
+   "exists": true,
+   "md5": "07c311b8e85281eff6ad687bfe6c5371",
+   "bytes": 8978,
+   "rows": 180
+  },
+  {
+   "path": "gephi/institution_network.gexf",
+   "exists": true,
+   "md5": "ed05913eb2d526bd6d594a07ee524632",
+   "bytes": 422511
+  },
+  {
+   "path": "gephi/institution_nodes.csv",
+   "exists": true,
+   "md5": "ebd3cf9db7e31015409d75323fd0db28",
+   "bytes": 43537,
+   "rows": 535
+  },
+  {
+   "path": "gephi/institution_edges.csv",
+   "exists": true,
+   "md5": "d981aa91cf420b1c7f656905a95d8897",
+   "bytes": 86014,
+   "rows": 828
+  },
+  {
+   "path": "gephi/country_collaboration_map.png",
+   "exists": true,
+   "md5": "b4fb687cddef1c7a0bbeffdc33c9aeac",
+   "bytes": 760247
+  },
+  {
+   "path": "gephi/country_collaboration_map.html",
+   "exists": true,
+   "md5": "885695aa546269e5f35b9c70c309b8d5",
+   "bytes": 466169
+  },
+  {
+   "path": "gephi/country_collaboration_map_2000_2005.png",
+   "exists": true,
+   "md5": "67a17b09ca30fd216ea82298f3c12f31",
+   "bytes": 415874
+  },
+  {
+   "path": "gephi/country_collaboration_map_2000_2012.png",
+   "exists": true,
+   "md5": "92ba247657c10650258408be5f9d73cd",
+   "bytes": 493269
+  },
+  {
+   "path": "gephi/country_collaboration_rankings.csv",
+   "exists": true,
+   "md5": "c41add2ae0c06d7fc1ab791aeb58e2cd",
+   "bytes": 6246,
+   "rows": 177
+  },
+  {
+   "path": "gephi/country_pair_rankings.csv",
+   "exists": true,
+   "md5": "0e353066f56a0711b18751c0fa762765",
+   "bytes": 6004,
+   "rows": 298
+  },
+  {
+   "path": "geo/ne_110m_admin_0_countries.geojson",
+   "exists": true,
+   "md5": "21abb20e7c74fc0c66b8dd955f8f7f73",
+   "bytes": 838726
+  }
+ ],
+ "headline": {
+  "papers": 812,
+  "papers_with_abstract": 810,
+  "papers_with_affiliation_country": 812,
+  "papers_in_coauthor_network": 812,
+  "papers_with_author_level_location": 812,
+  "authors": 1491,
+  "coauthor_links": 3247,
+  "largest_connected_group": 396,
+  "papers_moved_topic_k10": 11
+ }
+}

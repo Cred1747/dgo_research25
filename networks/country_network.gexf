@@ -1,0 +1,1634 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-11-20">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="5" title="author_pairs" type="long" />
+      <attribute id="6" title="first_year" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="papers" type="long" />
+      <attribute id="1" title="authors" type="long" />
+      <attribute id="2" title="first_year" type="long" />
+      <attribute id="3" title="region" type="string" />
+      <attribute id="4" title="domestic_papers" type="long" />
+    </attributes>
+    <nodes>
+      <node id="AE" label="AE">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="2003" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="AR" label="AR">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="Latin America" />
+          <attvalue for="4" value="3" />
+        </attvalues>
+      </node>
+      <node id="AT" label="AT">
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="24" />
+          <attvalue for="2" value="2007" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="10" />
+        </attvalues>
+      </node>
+      <node id="AU" label="AU">
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="18" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="Oceania" />
+          <attvalue for="4" value="11" />
+        </attvalues>
+      </node>
+      <node id="BE" label="BE">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="23" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="8" />
+        </attvalues>
+      </node>
+      <node id="BN" label="BN">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="BR" label="BR">
+        <attvalues>
+          <attvalue for="0" value="76" />
+          <attvalue for="1" value="147" />
+          <attvalue for="2" value="2000" />
+          <attvalue for="3" value="Latin America" />
+          <attvalue for="4" value="71" />
+        </attvalues>
+      </node>
+      <node id="BZ" label="BZ">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="Latin America" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="CA" label="CA">
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="12" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="North America" />
+          <attvalue for="4" value="8" />
+        </attvalues>
+      </node>
+      <node id="CH" label="CH">
+        <attvalues>
+          <attvalue for="0" value="21" />
+          <attvalue for="1" value="35" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="15" />
+        </attvalues>
+      </node>
+      <node id="CL" label="CL">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2011" />
+          <attvalue for="3" value="Latin America" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="CN" label="CN">
+        <attvalues>
+          <attvalue for="0" value="28" />
+          <attvalue for="1" value="46" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="15" />
+        </attvalues>
+      </node>
+      <node id="DE" label="DE">
+        <attvalues>
+          <attvalue for="0" value="39" />
+          <attvalue for="1" value="61" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="26" />
+        </attvalues>
+      </node>
+      <node id="DK" label="DK">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="12" />
+          <attvalue for="2" value="2009" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="3" />
+        </attvalues>
+      </node>
+      <node id="DO" label="DO">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="Latin America" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="EE" label="EE">
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="26" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="10" />
+        </attvalues>
+      </node>
+      <node id="EG" label="EG">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="Africa" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="ES" label="ES">
+        <attvalues>
+          <attvalue for="0" value="27" />
+          <attvalue for="1" value="28" />
+          <attvalue for="2" value="2011" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="17" />
+        </attvalues>
+      </node>
+      <node id="FI" label="FI">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="FR" label="FR">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="2009" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="GB" label="GB">
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="30" />
+          <attvalue for="2" value="2007" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="10" />
+        </attvalues>
+      </node>
+      <node id="GR" label="GR">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="20" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="10" />
+        </attvalues>
+      </node>
+      <node id="HK" label="HK">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="2" />
+        </attvalues>
+      </node>
+      <node id="HU" label="HU">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="ID" label="ID">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="4" />
+        </attvalues>
+      </node>
+      <node id="IE" label="IE">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="14" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="11" />
+        </attvalues>
+      </node>
+      <node id="IL" label="IL">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="4" />
+        </attvalues>
+      </node>
+      <node id="IN" label="IN">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="12" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="4" />
+        </attvalues>
+      </node>
+      <node id="IQ" label="IQ">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="IR" label="IR">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="2009" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="IT" label="IT">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="39" />
+          <attvalue for="2" value="2001" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="10" />
+        </attvalues>
+      </node>
+      <node id="JP" label="JP">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="10" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="3" />
+        </attvalues>
+      </node>
+      <node id="KR" label="KR">
+        <attvalues>
+          <attvalue for="0" value="32" />
+          <attvalue for="1" value="44" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="23" />
+        </attvalues>
+      </node>
+      <node id="LU" label="LU">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="10" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="4" />
+        </attvalues>
+      </node>
+      <node id="LV" label="LV">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="MO" label="MO">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="2009" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="8" />
+        </attvalues>
+      </node>
+      <node id="MX" label="MX">
+        <attvalues>
+          <attvalue for="0" value="41" />
+          <attvalue for="1" value="41" />
+          <attvalue for="2" value="2007" />
+          <attvalue for="3" value="Latin America" />
+          <attvalue for="4" value="30" />
+        </attvalues>
+      </node>
+      <node id="MY" label="MY">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="NL" label="NL">
+        <attvalues>
+          <attvalue for="0" value="67" />
+          <attvalue for="1" value="83" />
+          <attvalue for="2" value="2007" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="51" />
+        </attvalues>
+      </node>
+      <node id="NO" label="NO">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="10" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="2" />
+        </attvalues>
+      </node>
+      <node id="NZ" label="NZ">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="Oceania" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="PK" label="PK">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="15" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="6" />
+        </attvalues>
+      </node>
+      <node id="PL" label="PL">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="PR" label="PR">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2006" />
+          <attvalue for="3" value="Latin America" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="PT" label="PT">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="21" />
+          <attvalue for="2" value="2009" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="7" />
+        </attvalues>
+      </node>
+      <node id="RO" label="RO">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="RU" label="RU">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="SA" label="SA">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="SE" label="SE">
+        <attvalues>
+          <attvalue for="0" value="23" />
+          <attvalue for="1" value="35" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="14" />
+        </attvalues>
+      </node>
+      <node id="SG" label="SG">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="2" />
+        </attvalues>
+      </node>
+      <node id="SI" label="SI">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="2009" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="TN" label="TN">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2013" />
+          <attvalue for="3" value="Africa" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="TR" label="TR">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="4" />
+        </attvalues>
+      </node>
+      <node id="TW" label="TW">
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="23" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="Asia" />
+          <attvalue for="4" value="9" />
+        </attvalues>
+      </node>
+      <node id="UA" label="UA">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="Europe" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="UG" label="UG">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="Africa" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="US" label="US">
+        <attvalues>
+          <attvalue for="0" value="333" />
+          <attvalue for="1" value="569" />
+          <attvalue for="2" value="2000" />
+          <attvalue for="3" value="North America" />
+          <attvalue for="4" value="249" />
+        </attvalues>
+      </node>
+      <node id="UY" label="UY">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="Latin America" />
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </node>
+      <node id="ZA" label="ZA">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="Africa" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="AE" target="AE" id="0" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="AR" target="AR" id="1" weight="3">
+        <attvalues>
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="2017" />
+        </attvalues>
+      </edge>
+      <edge source="AR" target="AT" id="2" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="AR" target="UY" id="3" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2017" />
+        </attvalues>
+      </edge>
+      <edge source="AT" target="AT" id="4" weight="10">
+        <attvalues>
+          <attvalue for="5" value="37" />
+          <attvalue for="6" value="2007" />
+        </attvalues>
+      </edge>
+      <edge source="AT" target="BE" id="5" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="AT" target="BR" id="6" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="AT" target="DE" id="7" weight="6">
+        <attvalues>
+          <attvalue for="5" value="16" />
+          <attvalue for="6" value="2020" />
+        </attvalues>
+      </edge>
+      <edge source="AT" target="EE" id="8" weight="2">
+        <attvalues>
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="AT" target="ES" id="9" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="AT" target="GR" id="10" weight="2">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2020" />
+        </attvalues>
+      </edge>
+      <edge source="AT" target="LU" id="11" weight="1">
+        <attvalues>
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="2016" />
+        </attvalues>
+      </edge>
+      <edge source="AT" target="LV" id="12" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="AT" target="PL" id="13" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="AU" target="AU" id="14" weight="11">
+        <attvalues>
+          <attvalue for="5" value="13" />
+          <attvalue for="6" value="2004" />
+        </attvalues>
+      </edge>
+      <edge source="AU" target="BE" id="15" weight="1">
+        <attvalues>
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="AU" target="BR" id="16" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2011" />
+        </attvalues>
+      </edge>
+      <edge source="AU" target="IE" id="17" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="AU" target="MX" id="18" weight="2">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2017" />
+        </attvalues>
+      </edge>
+      <edge source="AU" target="PK" id="19" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2016" />
+        </attvalues>
+      </edge>
+      <edge source="AU" target="US" id="20" weight="14">
+        <attvalues>
+          <attvalue for="5" value="28" />
+          <attvalue for="6" value="2004" />
+        </attvalues>
+      </edge>
+      <edge source="BE" target="BE" id="21" weight="8">
+        <attvalues>
+          <attvalue for="5" value="28" />
+          <attvalue for="6" value="2015" />
+        </attvalues>
+      </edge>
+      <edge source="BE" target="CN" id="22" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="BE" target="DE" id="23" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="BE" target="EE" id="24" weight="2">
+        <attvalues>
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="BE" target="ES" id="25" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="BE" target="FR" id="26" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="BE" target="LU" id="27" weight="2">
+        <attvalues>
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="BE" target="NL" id="28" weight="2">
+        <attvalues>
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="BE" target="SE" id="29" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="BN" target="BN" id="30" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2016" />
+        </attvalues>
+      </edge>
+      <edge source="BN" target="SG" id="31" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2016" />
+        </attvalues>
+      </edge>
+      <edge source="BR" target="BR" id="32" weight="71">
+        <attvalues>
+          <attvalue for="5" value="396" />
+          <attvalue for="6" value="2008" />
+        </attvalues>
+      </edge>
+      <edge source="BR" target="CA" id="33" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2017" />
+        </attvalues>
+      </edge>
+      <edge source="BR" target="DK" id="34" weight="2">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2017" />
+        </attvalues>
+      </edge>
+      <edge source="BR" target="NL" id="35" weight="3">
+        <attvalues>
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="2017" />
+        </attvalues>
+      </edge>
+      <edge source="BR" target="PT" id="36" weight="2">
+        <attvalues>
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="2009" />
+        </attvalues>
+      </edge>
+      <edge source="BR" target="US" id="37" weight="6">
+        <attvalues>
+          <attvalue for="5" value="18" />
+          <attvalue for="6" value="2000" />
+        </attvalues>
+      </edge>
+      <edge source="BZ" target="DO" id="38" weight="1">
+        <attvalues>
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="2004" />
+        </attvalues>
+      </edge>
+      <edge source="BZ" target="US" id="39" weight="1">
+        <attvalues>
+          <attvalue for="5" value="19" />
+          <attvalue for="6" value="2004" />
+        </attvalues>
+      </edge>
+      <edge source="CA" target="CA" id="40" weight="8">
+        <attvalues>
+          <attvalue for="5" value="19" />
+          <attvalue for="6" value="2008" />
+        </attvalues>
+      </edge>
+      <edge source="CA" target="IE" id="41" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2019" />
+        </attvalues>
+      </edge>
+      <edge source="CA" target="TN" id="42" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2013" />
+        </attvalues>
+      </edge>
+      <edge source="CA" target="US" id="43" weight="1">
+        <attvalues>
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="CH" target="CH" id="44" weight="15">
+        <attvalues>
+          <attvalue for="5" value="37" />
+          <attvalue for="6" value="2005" />
+        </attvalues>
+      </edge>
+      <edge source="CH" target="DE" id="45" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="CH" target="FR" id="46" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2011" />
+        </attvalues>
+      </edge>
+      <edge source="CH" target="GB" id="47" weight="3">
+        <attvalues>
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="2009" />
+        </attvalues>
+      </edge>
+      <edge source="CH" target="NL" id="48" weight="1">
+        <attvalues>
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="2017" />
+        </attvalues>
+      </edge>
+      <edge source="CL" target="ES" id="49" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2011" />
+        </attvalues>
+      </edge>
+      <edge source="CL" target="PL" id="50" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="CN" target="CN" id="51" weight="15">
+        <attvalues>
+          <attvalue for="5" value="39" />
+          <attvalue for="6" value="2016" />
+        </attvalues>
+      </edge>
+      <edge source="CN" target="DK" id="52" weight="2">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2016" />
+        </attvalues>
+      </edge>
+      <edge source="CN" target="FI" id="53" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="CN" target="HK" id="54" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="CN" target="ID" id="55" weight="2">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2014" />
+        </attvalues>
+      </edge>
+      <edge source="CN" target="KR" id="56" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="CN" target="MX" id="57" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2014" />
+        </attvalues>
+      </edge>
+      <edge source="CN" target="NL" id="58" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="CN" target="US" id="59" weight="5">
+        <attvalues>
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="2014" />
+        </attvalues>
+      </edge>
+      <edge source="DE" target="DE" id="60" weight="26">
+        <attvalues>
+          <attvalue for="5" value="58" />
+          <attvalue for="6" value="2009" />
+        </attvalues>
+      </edge>
+      <edge source="DE" target="EE" id="61" weight="2">
+        <attvalues>
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="DE" target="ES" id="62" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="DE" target="FR" id="63" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2009" />
+        </attvalues>
+      </edge>
+      <edge source="DE" target="GR" id="64" weight="4">
+        <attvalues>
+          <attvalue for="5" value="10" />
+          <attvalue for="6" value="2020" />
+        </attvalues>
+      </edge>
+      <edge source="DE" target="IE" id="65" weight="1">
+        <attvalues>
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="2017" />
+        </attvalues>
+      </edge>
+      <edge source="DE" target="LU" id="66" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="DE" target="LV" id="67" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="DE" target="NL" id="68" weight="2">
+        <attvalues>
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="2017" />
+        </attvalues>
+      </edge>
+      <edge source="DE" target="PL" id="69" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="DE" target="US" id="70" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="DK" target="DK" id="71" weight="3">
+        <attvalues>
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="2016" />
+        </attvalues>
+      </edge>
+      <edge source="DK" target="FI" id="72" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="DK" target="IT" id="73" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2021" />
+        </attvalues>
+      </edge>
+      <edge source="DK" target="KR" id="74" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2019" />
+        </attvalues>
+      </edge>
+      <edge source="DK" target="NL" id="75" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="DK" target="PT" id="76" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2020" />
+        </attvalues>
+      </edge>
+      <edge source="DK" target="SE" id="77" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="DK" target="US" id="78" weight="2">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2009" />
+        </attvalues>
+      </edge>
+      <edge source="DO" target="DO" id="79" weight="1">
+        <attvalues>
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="2004" />
+        </attvalues>
+      </edge>
+      <edge source="DO" target="US" id="80" weight="1">
+        <attvalues>
+          <attvalue for="5" value="76" />
+          <attvalue for="6" value="2004" />
+        </attvalues>
+      </edge>
+      <edge source="EE" target="EE" id="81" weight="10">
+        <attvalues>
+          <attvalue for="5" value="28" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="EE" target="ES" id="82" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="EE" target="GR" id="83" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="EE" target="IQ" id="84" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="EE" target="LV" id="85" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="EE" target="TW" id="86" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="EG" target="EG" id="87" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="ES" target="ES" id="88" weight="17">
+        <attvalues>
+          <attvalue for="5" value="49" />
+          <attvalue for="6" value="2011" />
+        </attvalues>
+      </edge>
+      <edge source="ES" target="GR" id="89" weight="1">
+        <attvalues>
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="ES" target="MX" id="90" weight="4">
+        <attvalues>
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="2016" />
+        </attvalues>
+      </edge>
+      <edge source="ES" target="NL" id="91" weight="2">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2019" />
+        </attvalues>
+      </edge>
+      <edge source="ES" target="US" id="92" weight="2">
+        <attvalues>
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="2012" />
+        </attvalues>
+      </edge>
+      <edge source="FI" target="FI" id="93" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="FI" target="HK" id="94" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="FI" target="IE" id="95" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2014" />
+        </attvalues>
+      </edge>
+      <edge source="FI" target="KR" id="96" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="FI" target="SE" id="97" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="FR" target="IE" id="98" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2021" />
+        </attvalues>
+      </edge>
+      <edge source="FR" target="LU" id="99" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="GB" target="GB" id="100" weight="10">
+        <attvalues>
+          <attvalue for="5" value="25" />
+          <attvalue for="6" value="2015" />
+        </attvalues>
+      </edge>
+      <edge source="GB" target="IT" id="101" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2015" />
+        </attvalues>
+      </edge>
+      <edge source="GB" target="JP" id="102" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2021" />
+        </attvalues>
+      </edge>
+      <edge source="GB" target="NL" id="103" weight="3">
+        <attvalues>
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="2009" />
+        </attvalues>
+      </edge>
+      <edge source="GB" target="RO" id="104" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="GB" target="US" id="105" weight="2">
+        <attvalues>
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="2007" />
+        </attvalues>
+      </edge>
+      <edge source="GR" target="GR" id="106" weight="10">
+        <attvalues>
+          <attvalue for="5" value="31" />
+          <attvalue for="6" value="2020" />
+        </attvalues>
+      </edge>
+      <edge source="GR" target="IN" id="107" weight="2">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="GR" target="IT" id="108" weight="1">
+        <attvalues>
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="GR" target="LV" id="109" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="GR" target="NL" id="110" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="GR" target="PL" id="111" weight="2">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="GR" target="UA" id="112" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="HK" target="HK" id="113" weight="2">
+        <attvalues>
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="HK" target="KR" id="114" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="HK" target="TW" id="115" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="HK" target="US" id="116" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="HU" target="HU" id="117" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2021" />
+        </attvalues>
+      </edge>
+      <edge source="ID" target="ID" id="118" weight="4">
+        <attvalues>
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="2016" />
+        </attvalues>
+      </edge>
+      <edge source="ID" target="MX" id="119" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2014" />
+        </attvalues>
+      </edge>
+      <edge source="ID" target="MY" id="120" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="ID" target="NL" id="121" weight="2">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="ID" target="US" id="122" weight="5">
+        <attvalues>
+          <attvalue for="5" value="11" />
+          <attvalue for="6" value="2014" />
+        </attvalues>
+      </edge>
+      <edge source="IE" target="IE" id="123" weight="11">
+        <attvalues>
+          <attvalue for="5" value="33" />
+          <attvalue for="6" value="2013" />
+        </attvalues>
+      </edge>
+      <edge source="IE" target="MX" id="124" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="IE" target="NL" id="125" weight="2">
+        <attvalues>
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="2010" />
+        </attvalues>
+      </edge>
+      <edge source="IE" target="US" id="126" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="IL" target="IL" id="127" weight="4">
+        <attvalues>
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="2014" />
+        </attvalues>
+      </edge>
+      <edge source="IN" target="IN" id="128" weight="4">
+        <attvalues>
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="2015" />
+        </attvalues>
+      </edge>
+      <edge source="IN" target="NL" id="129" weight="2">
+        <attvalues>
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="IN" target="PL" id="130" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="IQ" target="US" id="131" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2021" />
+        </attvalues>
+      </edge>
+      <edge source="IR" target="IR" id="132" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2009" />
+        </attvalues>
+      </edge>
+      <edge source="IT" target="IT" id="133" weight="10">
+        <attvalues>
+          <attvalue for="5" value="135" />
+          <attvalue for="6" value="2017" />
+        </attvalues>
+      </edge>
+      <edge source="IT" target="NL" id="134" weight="1">
+        <attvalues>
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="IT" target="US" id="135" weight="2">
+        <attvalues>
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="2001" />
+        </attvalues>
+      </edge>
+      <edge source="JP" target="JP" id="136" weight="3">
+        <attvalues>
+          <attvalue for="5" value="15" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="JP" target="NO" id="137" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2016" />
+        </attvalues>
+      </edge>
+      <edge source="KR" target="KR" id="138" weight="23">
+        <attvalues>
+          <attvalue for="5" value="55" />
+          <attvalue for="6" value="2013" />
+        </attvalues>
+      </edge>
+      <edge source="KR" target="PT" id="139" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="KR" target="US" id="140" weight="7">
+        <attvalues>
+          <attvalue for="5" value="19" />
+          <attvalue for="6" value="2004" />
+        </attvalues>
+      </edge>
+      <edge source="LU" target="LU" id="141" weight="4">
+        <attvalues>
+          <attvalue for="5" value="10" />
+          <attvalue for="6" value="2016" />
+        </attvalues>
+      </edge>
+      <edge source="MO" target="MO" id="142" weight="8">
+        <attvalues>
+          <attvalue for="5" value="23" />
+          <attvalue for="6" value="2009" />
+        </attvalues>
+      </edge>
+      <edge source="MO" target="SA" id="143" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2014" />
+        </attvalues>
+      </edge>
+      <edge source="MO" target="US" id="144" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2010" />
+        </attvalues>
+      </edge>
+      <edge source="MX" target="MX" id="145" weight="30">
+        <attvalues>
+          <attvalue for="5" value="126" />
+          <attvalue for="6" value="2011" />
+        </attvalues>
+      </edge>
+      <edge source="MX" target="US" id="146" weight="12">
+        <attvalues>
+          <attvalue for="5" value="40" />
+          <attvalue for="6" value="2007" />
+        </attvalues>
+      </edge>
+      <edge source="MY" target="MY" id="147" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="MY" target="NL" id="148" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="NL" target="NL" id="149" weight="51">
+        <attvalues>
+          <attvalue for="5" value="224" />
+          <attvalue for="6" value="2007" />
+        </attvalues>
+      </edge>
+      <edge source="NL" target="NO" id="150" weight="1">
+        <attvalues>
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="NL" target="PL" id="151" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2023" />
+        </attvalues>
+      </edge>
+      <edge source="NL" target="SE" id="152" weight="2">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="NL" target="TW" id="153" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="NL" target="US" id="154" weight="1">
+        <attvalues>
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="2019" />
+        </attvalues>
+      </edge>
+      <edge source="NO" target="NO" id="155" weight="2">
+        <attvalues>
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="NO" target="SE" id="156" weight="4">
+        <attvalues>
+          <attvalue for="5" value="11" />
+          <attvalue for="6" value="2022" />
+        </attvalues>
+      </edge>
+      <edge source="NZ" target="NZ" id="157" weight="1">
+        <attvalues>
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="PK" target="PK" id="158" weight="6">
+        <attvalues>
+          <attvalue for="5" value="17" />
+          <attvalue for="6" value="2012" />
+        </attvalues>
+      </edge>
+      <edge source="PK" target="US" id="159" weight="6">
+        <attvalues>
+          <attvalue for="5" value="37" />
+          <attvalue for="6" value="2012" />
+        </attvalues>
+      </edge>
+      <edge source="PL" target="PL" id="160" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="PL" target="UA" id="161" weight="1">
+        <attvalues>
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="PL" target="UG" id="162" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2019" />
+        </attvalues>
+      </edge>
+      <edge source="PR" target="PR" id="163" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2006" />
+        </attvalues>
+      </edge>
+      <edge source="PT" target="PT" id="164" weight="7">
+        <attvalues>
+          <attvalue for="5" value="20" />
+          <attvalue for="6" value="2011" />
+        </attvalues>
+      </edge>
+      <edge source="RU" target="RU" id="165" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2016" />
+        </attvalues>
+      </edge>
+      <edge source="RU" target="US" id="166" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2016" />
+        </attvalues>
+      </edge>
+      <edge source="SE" target="SE" id="167" weight="14">
+        <attvalues>
+          <attvalue for="5" value="44" />
+          <attvalue for="6" value="2018" />
+        </attvalues>
+      </edge>
+      <edge source="SE" target="US" id="168" weight="2">
+        <attvalues>
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="2010" />
+        </attvalues>
+      </edge>
+      <edge source="SG" target="SG" id="169" weight="2">
+        <attvalues>
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="2014" />
+        </attvalues>
+      </edge>
+      <edge source="SG" target="US" id="170" weight="1">
+        <attvalues>
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2014" />
+        </attvalues>
+      </edge>
+      <edge source="SI" target="SI" id="171" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2020" />
+        </attvalues>
+      </edge>
+      <edge source="TN" target="US" id="172" weight="1">
+        <attvalues>
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="2016" />
+        </attvalues>
+      </edge>
+      <edge source="TR" target="TR" id="173" weight="4">
+        <attvalues>
+          <attvalue for="5" value="15" />
+          <attvalue for="6" value="2015" />
+        </attvalues>
+      </edge>
+      <edge source="TW" target="TW" id="174" weight="9">
+        <attvalues>
+          <attvalue for="5" value="37" />
+          <attvalue for="6" value="2020" />
+        </attvalues>
+      </edge>
+      <edge source="TW" target="US" id="175" weight="3">
+        <attvalues>
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="UA" target="UA" id="176" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2024" />
+        </attvalues>
+      </edge>
+      <edge source="UG" target="UG" id="177" weight="1">
+        <attvalues>
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2019" />
+        </attvalues>
+      </edge>
+      <edge source="US" target="US" id="178" weight="249">
+        <attvalues>
+          <attvalue for="5" value="1597" />
+          <attvalue for="6" value="2000" />
+        </attvalues>
+      </edge>
+      <edge source="ZA" target="ZA" id="179" weight="1">
+        <attvalues>
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="2019" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,60 @@
+Id,papers,authors,first_year,Label,region
+AE,3,4,2003,AE,Asia
+AR,5,8,2017,AR,Latin America
+AT,18,24,2007,AT,Europe
+AU,19,18,2004,AU,Oceania
+BE,13,23,2015,BE,Europe
+BN,1,2,2016,BN,Asia
+BR,76,147,2000,BR,Latin America
+BZ,1,1,2004,BZ,Latin America
+CA,14,12,2008,CA,North America
+CH,21,35,2005,CH,Europe
+CL,2,2,2011,CL,Latin America
+CN,28,46,2014,CN,Asia
+DE,39,61,2005,DE,Europe
+DK,12,12,2009,DK,Europe
+DO,1,4,2004,DO,Latin America
+EE,17,26,2018,EE,Europe
+EG,2,3,2018,EG,Africa
+ES,27,28,2011,ES,Europe
+FI,5,6,2014,FI,Europe
+FR,4,4,2009,FR,Europe
+GB,19,30,2007,GB,Europe
+GR,16,20,2020,GR,Europe
+HK,5,8,2016,HK,Asia
+HU,1,2,2021,HU,Europe
+ID,9,6,2014,ID,Asia
+IE,13,14,2010,IE,Europe
+IL,4,2,2014,IL,Asia
+IN,7,12,2015,IN,Asia
+IQ,2,2,2021,IQ,Asia
+IR,1,3,2009,IR,Asia
+IT,15,39,2001,IT,Europe
+JP,5,10,2016,JP,Asia
+KR,32,44,2004,KR,Asia
+LU,5,10,2016,LU,Europe
+LV,1,1,2023,LV,Europe
+MO,8,5,2009,MO,Asia
+MX,41,41,2007,MX,Latin America
+MY,1,3,2023,MY,Asia
+NL,67,83,2007,NL,Europe
+NO,9,10,2016,NO,Europe
+NZ,1,4,2024,NZ,Oceania
+PK,10,15,2012,PK,Asia
+PL,7,5,2019,PL,Europe
+PR,1,2,2006,PR,Latin America
+PT,12,21,2009,PT,Europe
+RO,1,1,2024,RO,Europe
+RU,5,4,2010,RU,Europe
+SA,1,1,2014,SA,Asia
+SE,23,35,2010,SE,Europe
+SG,3,6,2014,SG,Asia
+SI,3,4,2009,SI,Europe
+TN,2,2,2013,TN,Africa
+TR,4,8,2015,TR,Asia
+TW,19,23,2020,TW,Asia
+UA,1,3,2024,UA,Europe
+UG,1,2,2019,UG,Africa
+US,333,569,2000,US,North America
+UY,1,1,2017,UY,Latin America
+ZA,2,4,2019,ZA,Africa
